@@ -1,8 +1,7 @@
 require "yaml"
-require "pry"
 
 def load_library
-  emo = YAML.load_file('lib/emoticons.yml') 
+  emo = YAML.load_file('./lib/emoticons.yml') 
   emo
 end
 
